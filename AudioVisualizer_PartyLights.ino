@@ -7,17 +7,10 @@
  * ║  Built-in WS2812 RGB LED (GPIO 48)                           ║
  * ╠══════════════════════════════════════════════════════════════╣
  * ║  LIBRARIES — Install via Arduino Library Manager:            ║
- * ║  ① arduino-audio-tools  (pschatzmann) — already installed	  ║
- * ║  ② Adafruit ST7789 + Adafruit GFX    — already installed	  ║
- * ║  ③ Adafruit NeoPixel                 ← NEW  install this	  ║
- * ║  ④ arduinoFFT  (Enrique Condes v2.x) ← NEW  install this	  ║
- * ╠══════════════════════════════════════════════════════════════╣
- * ║  ⚠  GPIO 48 CONFLICT:                                       ║
- * ║     In your diagnostics sketch GPIO 48 = PA_EN (amp power).  ║
- * ║     This sketch drives GPIO 48 as the built-in WS2812 LED.   ║
- * ║     Speaker / codec is NOT used here — no conflict arises.   ║
- * ║     If you ever want speaker + LED simultaneously, reroute   ║
- * ║     PA_EN to a free GPIO (e.g. GPIO 7) in both sketches.     ║
+ * ║  ① arduino-audio-tools  (pschatzmann)	                      ║
+ * ║  ② Adafruit ST7789 + Adafruit GFX 	                          ║
+ * ║  ③ Adafruit NeoPixel    	                                  ║
+ * ║  ④ arduinoFFT  (Enrique Condes v2.x)	                      ║
  * ╚══════════════════════════════════════════════════════════════╝
  *
  *  WIRING  (unchanged from your diagnostics sketch)
